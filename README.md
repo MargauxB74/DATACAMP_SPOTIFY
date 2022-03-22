@@ -84,4 +84,5 @@ df_artist = pd.DataFrame(artists_meta, columns=columns_name_artists)
 ```python
 df_artist.to_csv('df_artist.csv')
 df_music.to_csv('df_music.csv')
+df = pd.read_csv('./demo_spotify_30k.csv', sep = '|')
 ```
